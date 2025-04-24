@@ -1,0 +1,75 @@
+.grid-item img, .search-item img {
+    width: 150px;  
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    display: block;
+    margin: 0 auto;
+}
+
+.product-detail img {
+    max-height: 200px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+
+.product-detail head {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+.product-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px; 
+}
+
+.product-title {
+    font-size: 20px; 
+    font-family: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #333; 
+    margin: 0 0 15px 0; 
+    font-weight: 900; 
+    line-height: 1.2; 
+    letter-spacing: 0.5px; 
+}
+
+.price-unit {
+    font-size: 18px !important; 
+    font-weight: bold; 
+    color: #4b72a5; 
+    margin: 10px 0; 
+}
+
+
+.product-detail p.description {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+.stock-status {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px 0;
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.stock-status.in-stock {
+    color: green; 
+}
+
+.stock-status.out-of-stock {
+    color: red; 
+}
+
